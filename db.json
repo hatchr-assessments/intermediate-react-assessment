@@ -1,0 +1,132 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john.doe@example.com",
+      "phone": "555-555-5555",
+      "address": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345"
+      },
+      "orders": [
+        {
+          "id": 1,
+          "product": "Widget A",
+          "quantity": 2,
+          "price": 9.99
+        },
+        {
+          "id": 2,
+          "product": "Widget B",
+          "quantity": 1,
+          "price": 19.99
+        }
+      ],
+      "notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "id": 2,
+      "first_name": "Jane",
+      "last_name": "Doe",
+      "email": "jane.doe@example.com",
+      "phone": "555-555-5555",
+      "address": {
+        "street": "456 Elm St",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345"
+      },
+      "orders": [
+        {
+          "id": 3,
+          "product": "Widget C",
+          "quantity": 3,
+          "price": 29.99
+        }
+      ],
+      "notes": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "id": 3,
+      "first_name": "Bob",
+      "last_name": "Smith",
+      "email": "bob.smith@example.com",
+      "phone": "555-555-5555",
+      "address": {
+        "street": "789 Oak St",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345"
+      },
+      "orders": [
+        {
+          "id": 4,
+          "product": "Widget D",
+          "quantity": 1,
+          "price": 49.99
+        },
+        {
+          "id": 5,
+          "product": "Widget E",
+          "quantity": 2,
+          "price": 14.99
+        }
+      ],
+      "notes": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "id": 4,
+      "first_name": "Emily",
+      "last_name": "Jones",
+      "email": "emily.jones@example.com",
+      "phone": "555-555-5555",
+      "address": {
+        "street": "101 Pine St",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345"
+      },
+      "orders": [
+        {
+          "id": 6,
+          "product": "Widget F",
+          "quantity": 1,
+          "price": 24.99
+        },
+        {
+          "id": 7,
+          "product": "Widget G",
+          "quantity": 3,
+          "price": 9.99
+        }
+      ],
+      "notes": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    },
+    {
+      "id": 5,
+      "first_name": "David",
+      "last_name": "Lee",
+      "email": "david.lee@example.com",
+      "phone": "555-555-5555",
+      "address": {
+        "street": "222 Maple St",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345"
+      },
+      "orders": [
+        {
+          "id": 8,
+          "product": "Widget H",
+          "quantity": 2,
+          "price": 39.99
+        }
+      ],
+      "notes": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  ]
+}
